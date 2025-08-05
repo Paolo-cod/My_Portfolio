@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="row p-5 col-3">
+            <a href="index.html" class=" btn btn-lg btn-primary fixed-top col-3 p-2">Retour à l'acceuil</a>
+        </div>
+    </header>
+    <div class="body">
+        <div class="container d-flex justify-content-center"  style="width: 700px; height: 400px;">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="height: 400px; width: 700px;">
+                        <img src="projets/projet3/capture_algo_simple.JPG" class="d-block w-100" alt="...">                     
+                    </div>
+                    <div class="carousel-item" style="height: 400px; width: 700px;">
+                        <img src="projets/projet3/capture_algo_simple_resultats.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" style="height: 400px; width: 700px;">
+                        <img src="projets/projet3/capture_algotout.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" style="height: 400px; width: 700px;">
+                        <img src="projets/projet3/capture_algotout_resultats.JPG" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="qualities row col-6 p-3 border bg-light mt-5">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            DESCRIPTION
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Ce projet visait à concevoir des algorithmes pour un système de gestion de caisse en boutique. <br>
+                            L'objectif principal était de permettre au commerçants de :
+                            <ul>
+                                <li>Calculer les totaux et monnaie rendue</li>
+                                <li>Générer des factures et des reçus</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            FONCTIONNALITES PRONCIPALES
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Calcul automatique des totaux (Hors taxes et TTC)</li>
+                                <li>Gestion du rendu de monnaie</li>
+                                <li>Différents niveaux d'accès (caissier, manager, administrateur)</li>
+                            </ul>     
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            APPORT EN COMPETENCES
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Conception d'algorithmes pour le calcul de montants</li>
+                                <li>Collaboration avec d'autres équipes de développement pour structurer le projet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parcours row d-flex ms-auto col-6 p-3 border bg-light mt-5">
+            <div class="accordion accordion-flush" id="accordionFlushExampleParcours">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneParcours" aria-expanded="false" aria-controls="flush-collapseOneParcours">
+                            TECHNOLOIES UTILISEES
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOneParcours" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleParcours">
+                        <div class="accordion-body text-center">
+                            <div class="scroll-container">
+                                <div class="scroll-content">
+                                    <img src="images/icones_tech/algo.png" alt="ALGO">
+                                    <img src="images/icones_tech/algo1.png" alt="ALGO1">
+                                    <img src="images/icones_tech/algobox.jpg" alt="ALGOBOX">
+                                    <img src="images/icones_tech/python.png" alt="PYTHON">
+                                </div>
+                            </div>
+                            <div class="row" style="font-family: 'Courier New', Courier, monospace; margin-left: 20px;">
+                                <strong>
+                                    Editeurs de code 
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoParcours" aria-expanded="false" aria-controls="flush-collapseTwoParcours">
+                            DIFFICULTES RENCONTREES
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwoParcours" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleParcours">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Choix de l'algorithme optimal (dilemme entre efficacité et simplicité)</li>
+                                <li>Difficulté à choisir la bonne approche</li>
+                                <li>Erreurs de logique difficilement détectables</li>
+                            </ul>   
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreeParcours" aria-expanded="false" aria-controls="flush-collapseThreeParcours">
+                            SOLUTIONS MISES EN PLACE
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThreeParcours" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleParcours">
+                        <div class="accordion-body">
+                            <div class="scroll-container">
+                                <ul>
+                                    <li>Analyse approfondie du problème et décomposition en sous problèmes</li>
+                                    <li>Utilisation de l'algorithme glouton pour la distribution optimale de la monnaie</li>
+                                    <li>Réalisation de plusieurs tests unitaires afin de vérifier la logique des algorithmes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="foot">
+    <div class="formulaire mt-5">
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Nom</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </div>
+    <div class="contact mt-5 bg-dark text-light">
+        <div class="container text-center" style="padding-top: 70px;">
+            <h5>Retrouvez-moi sur les réseaux sociaux</h5>
+            <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="mx-3 text-light" target="_blank" style="font-size: 2rem;">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="mx-3 text-light" target="_blank" style="font-size: 2rem;">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="mx-3 text-light" target="_blank" style="font-size: 2rem;">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="mx-3 text-light" target="_blank" style="font-size: 2rem;">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <p class="mt-4">&copy; 2025 DELOFON Paolo Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+</html>

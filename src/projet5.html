@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="water-overlay">
+        <div class="container" style="height: 75px;">
+            <div class="row"></div>
+        </div>
+        <div class="d-flex flex-row mb-3" style="margin-left: 100px;">
+            <a href="index.html" class="btn btn-primary">
+                <i class="fas fa-arrow-left"></i> Retour à l'accueil
+            </a>
+        </div>
+        <div class="container" style="height: 75px;">
+            <div class="row"></div>
+        </div>
+        <div class="container centered-div" style="height: 450px; width: 700px;">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="projets/projet5/page_acceuil.png" class="d-block w-100" alt="">
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <img src="projets/projet5/tableau.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="projets/projet5/TSP.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="projets/projet5/carte.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>    
+            </div>
+        </div>
+    
+        <div class="container mt-5 custom-box">
+            <div class="row">
+                <div class="col-6">
+                    <div class="p-3 border bg-light">
+                        <div class="accordion accordion-flush" id="accordionFlushExample1">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    DESCRIPTION
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                    <div class="accordion-body">
+                                    Ce projet avait pour objectif de créer un logiciel en C++ avec une interface graphique Qt,
+                                    permettant de calculer le temps de trajet entre des villes françaises. Il utilise des
+                                    données issues de fichiers CSV pour estimer les temps à l’aide de l’algorithme de
+                                    Floyd-Warshall. L'utilisateur peut ainsi obtenir rapidement le temps de conduite
+                                    entre deux villes ou entre plusieurs villes.
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    FONCTIONNALITES PRINCIPALES
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Consulter les informations (classement, longitude, latitude, densité, ...) d'une ville</li>
+                                            <li>Trouver le temps de trajet entre deux villes selectionnées</li>
+                                            <li>Construire un tableau de temps de trajet entre un ensemble de villes selectionnées</li>
+                                            <li>Connaître le meilleur ordre pour visiter un ensemble de villes choisies</li>
+                                            <li>Determiner le meilleur emplacement pour un dépôt qui doit desservir un ensemble de villes</li>
+                                            <li>Visualiser une carte montrant les villes de France</li>
+                                        </ul>                  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    APPORT EN COMPETENCES
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                    <div class="accordion-body">
+                                    <ul>
+                                        Ce projet m’a permis de consolider et développer plusieurs compétences clés :
+                                        <li><strong>Programmation en C++</strong>, particulièrement dans la manipulation de matrices, de fichiers CSV et la structuration du code</li>
+                                        <li><strong>Utilisation de Qt</strong> pour créer une interface graphique intuitive permettant une interaction avec l’utilisateur</li>
+                                        <li><strong>Gestion et traitement de données réelles</strong>, avec des jeux de données partiels et imparfaits</li>
+                                        <li><strong>Optimisation et modélisation de problèmes</strong>, dans les fonctionnalités avancées (ordre de visite, placement de dépôt...)</li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-end">
+                <div class="col-6">
+                    <div class="p-3 border bg-light">
+                        <div class="accordion accordion-flush1" id="accordionFlushExample2">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush1-collapseOne" aria-expanded="false" aria-controls="flush1-collapseOne">
+                                    TECHNOLOGIES ET OUTILS UTILISES
+                                    </button>
+                                </h2>
+                                <div id="flush1-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                    <div class="accordion-body text-center">
+                                        <div class="scroll-container">
+                                            <div class="scroll-content">
+                                                <img src="images/icones_tech/vs_code.png" alt="VSCODE">
+                                                <img src="images/icones_tech/c_plus_plus_fstream.png" alt="FSTREAM">
+                                                <img src="images/icones_tech/c_plus_plus_stl.jpg" alt="STL">
+                                                <img src="images/icones_tech/qt_creator_icone.png" alt="QT_CREATOR">
+                                            </div>
+                                        </div>
+                                        <div class="row" style="font-family: 'Courier New', Courier, monospace; margin-left: 20px;">
+                                            <strong>
+                                                Editeurs de code et bibliothèques C++
+                                            </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush1-collapseTwo" aria-expanded="false" aria-controls="flush1-collapseTwo">
+                                    DIFFICULTES RENCONTREES
+                                    </button>
+                                </h2>
+                                <div id="flush1-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Création de l’interface avec Qt, qui demande de bien organiser les signaux/slots, la logique d’affichage et les interactions</li>
+                                            <li>Affichage lisible des résultats, notamment pour le tableau croisé de trajets entre plusieurs villes</li>
+                                            <li>Gestion des performances, car l’algorithme a une complexité élevée (O(n³)), ce qui peut ralentir l’application si mal implémentée.</li>
+                                        </ul>                 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush1-collapseThree" aria-expanded="false" aria-controls="flush1-collapseThree">
+                                    SOLUTIONS MISES EN PLACE
+                                    </button>
+                                </h2>
+                                <div id="flush1-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                    <div class="accordion-body">
+                                    <ul>
+                                       <li>Calcul du plus court chemin dans une phase d’initialisation (au lancement) pour éviter de recalculer à chaque demande</li>
+                                       <li>Création des fonctions pour parser les fichiers et utilisation des structures de type dictionnaire pour relier les noms de villes à leurs indices</li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="height: 600px;">
+            <div class="row bg-transparent" style="padding-top: 50px; width: 200px; align-content: center;">
+                <a href="R2.09-TP3.pdf" class="btn btn-success" download>
+                    <i class="fas fa-file-archive"></i> Télécharger le dossier ZIP du projet
+                </a>                
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="bg-dark text-light py-5" style="height: 400px;">
+    <div class="container text-center" style="padding-top: 70px;">
+        <h5>Retrouvez-moi sur les réseaux sociaux</h5>
+        <div class="d-flex justify-content-center mt-4">
+            <a href="#" class="mx-3 text-light" target="_blank" style="font-size: 2rem;">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="mx-3 text-light" target="_blank" style="font-size: 2rem;">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="mx-3 text-light" target="_blank" style="font-size: 2rem;">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="mx-3 text-light" target="_blank" style="font-size: 2rem;">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <p class="mt-4">&copy; 2024 DELOFON Paolo Tous droits réservés.</p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
